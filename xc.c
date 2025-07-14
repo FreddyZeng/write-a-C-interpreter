@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
 #define int long long // to work with 64bit address
 
 int debug;    // print the executed instructions
