@@ -6,6 +6,8 @@
 #include <memory.h>
 #include <string.h>
 #include <stdint.h>
+#include <fcntl.h>
+#include <unistd.h>
 #define int intptr_t
 
 int token;                    // current token
